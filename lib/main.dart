@@ -105,7 +105,7 @@ class _TableTimerState extends State<TableTimer> {
           _counterSeconds--;
         } else {
           color = Colors.red;
-          showToast("Please attend to customer.", duration: Toast.LENGTH_SHORT);
+          showToast("Please attend to customer", duration: Toast.LENGTH_SHORT);
           myApp.failures ++;
           _timer.cancel();
 
